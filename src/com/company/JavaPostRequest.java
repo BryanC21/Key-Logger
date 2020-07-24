@@ -24,7 +24,7 @@ public class JavaPostRequest {
     public static void Connect() throws MalformedURLException,
             ProtocolException, IOException {
 
-        String url = "example.org";
+        String url = "http://ec2-54-158-71-64.compute-1.amazonaws.com/test.php";
 
         byte[] postData = urlParameters.getBytes(StandardCharsets.UTF_8);
         urlParameters = "keys="; //Reset parameters
